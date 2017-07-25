@@ -1,0 +1,5 @@
+{
+	host: "10.110.237.18",
+	port: 8088,
+	resourcePath: "/moskito-analyze/central/addSnapshot"
+}

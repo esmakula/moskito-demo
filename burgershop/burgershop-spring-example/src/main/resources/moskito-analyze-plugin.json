@@ -1,0 +1,22 @@
+{
+    "url" : "http://10.110.237.18:8088/moskito-analyze/charts/",
+
+    "@charts": [
+        {
+            "name": "Brioche sales 1m - last 24h",
+            "producerName": "sales",
+            "statName": "brioche",
+            "valueName": "Number",
+            "intervalName": "1m",
+            "chartName": "period"
+        },
+        {
+            "name": "Lamb sales period 1m - last 24h",
+            "producerName": "sales",
+            "statName": "lamb",
+            "valueName": "Number",
+            "intervalName": "1m",
+            "chartName": "period"
+        }
+    ]
+}

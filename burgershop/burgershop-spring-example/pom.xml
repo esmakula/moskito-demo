@@ -99,7 +99,18 @@
 		  <artifactId>moskito-inspect-jersey</artifactId>
 		  <version>${moskito.version}</version>
 	  </dependency>
-	  <!-- /MoSKito Inspect REST API -->
+	  <!-- /MoSKito central REST connector -->
+      <dependency>
+          <groupId>org.moskito</groupId>
+          <artifactId>moskito-central-rest-connector</artifactId>
+          <version>1.1.1</version>
+      </dependency>
+      <!-- MoSKito Analyze plugin -->
+      <dependency>
+          <groupId>net.anotheria</groupId>
+          <artifactId>moskito-analyze</artifactId>
+          <version>2.7.9-SNAPSHOT</version>
+      </dependency>
 	
 
 
