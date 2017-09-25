@@ -571,14 +571,9 @@
 				"className": "net.anotheria.moskito.core.plugins.NoOpPlugin"
 			},
             {
-                "name": "RESTRemoteCentralConnector",
-                "configurationName": "rest-connector",
-                "className": "org.moskito.central.connectors.rest.RESTConnector"
-            },
-            {
-                "name": "MoskitoAnalyzePlugin",
-                "configurationName": "moskito-analyze-plugin",
-                "className": "net.anotheria.moskito.extensions.analyze.MoskitoAnalyzePlugin"
+                "name": "RESTAnalyzeConnector",
+                "configurationName": "moskito-analyze-connector",
+                "className": "net.anotheria.moskito.extensions.analyze.connector.rest.RESTConnector"
           }
 		]
 	}

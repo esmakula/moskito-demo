@@ -105,14 +105,23 @@
           <artifactId>moskito-central-rest-connector</artifactId>
           <version>1.1.1</version>
       </dependency>
-      <!-- MoSKito Analyze plugin -->
+      <!-- MoSKito Analyze connector plugin -->
       <dependency>
           <groupId>net.anotheria</groupId>
-          <artifactId>moskito-analyze</artifactId>
-          <version>2.8.3-SNAPSHOT</version>
+          <artifactId>moskito-analyze-connector</artifactId>
+          <version>${moskito.version}</version>
       </dependency>
-	
-
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.12</version>
+      </dependency>
+      <dependency>
+          <groupId>org.moskito</groupId>
+          <artifactId>moskito-junit-runner</artifactId>
+          <version>1.0.0-SNAPSHOT</version>
+          <scope>test</scope>
+      </dependency>
 
 
   </dependencies>
