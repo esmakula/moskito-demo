@@ -1,0 +1,7 @@
+{
+  "host": "localhost",
+  "port": 8090,
+  "resourcePath": "/moskito-analyze/api/data/",
+  "snapshot": "addSnapshot",
+  "journey" : "addJourney"
+}
